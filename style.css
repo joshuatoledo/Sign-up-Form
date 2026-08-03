@@ -53,3 +53,32 @@
   font-size: 0.8rem;
   color: white;
 }
+
+.info-container {
+  flex: 1; /* take up right side space */
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: first baseline;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.info-header p {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  padding: 16px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.info-inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
