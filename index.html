@@ -33,29 +33,45 @@
           <div class="info-inputs">
             <legend>Let's do this!</legend>
 
-            <label for="firstname">FIRST NAME</label>
-            <input type="text" id="firstname" name="firstname" />
+            <div class="two-column">
+              <div class="input-group">
+                <label for="firstname">FIRST NAME</label>
+                <input type="text" id="firstname" name="firstname" />
+              </div>
+              <div class="input-group">
+                <label for="lastname">LAST NAME</label>
+                <input type="text" id="lastname" name="lastname" />
+              </div>
+            </div>
 
-            <label for="lastname">LAST NAME</label>
-            <input type="text" id="lastname" name="lastname" />
+            <div class="two-column">
+              <div class="input-group">
+                <label for="email">EMAIL</label>
+                <input type="email" id="email" name="email" />
+              </div>
+              <div class="input-group">
+                <label for="tel">PHONE NUMBER</label>
+                <input type="tel" id="tel" name="tel" />
+              </div>
+            </div>
 
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email" />
-
-            <label for="tel">PHONE NUMBER</label>
-            <input type="tel" id="tel" name="tel" />
-
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password" required />
-
-            <label for="confirm_password">CONFIRM PASSWORD</label>
-            <input
-              type="password"
-              id="confirm_password"
-              name="confirm_password"
-              required
-            />
+            <div class="two-column">
+              <div class="input-group">
+                <label for="password">PASSWORD</label>
+                <input type="password" id="password" name="password" required />
+              </div>
+              <div class="input-group">
+                <label for="confirm_password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  id="confirm_password"
+                  name="confirm_password"
+                  required
+                />
+              </div>
+            </div>
           </div>
+
           <div class="info-submit">
             <button class="info-button" type="submit">Create Account</button>
           </div>
