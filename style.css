@@ -109,3 +109,17 @@ input:focus {
 input:user-invalid {
   border: 2px solid red;
 }
+
+.info-button {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #596d48;
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.btn-account-login {
+  color: #596d48;
+  border: none;
+  gap: 8px;
+}
