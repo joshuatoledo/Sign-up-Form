@@ -82,3 +82,30 @@
   flex-direction: column;
   padding: 16px;
 }
+.two-column {
+  display: flex;
+  gap: 20px; /* space between columns */
+  margin-bottom: 20px;
+}
+.input-group {
+  flex: 1; /* equal width for each group */
+  display: flex;
+  flex-direction: column; /* label above input */
+}
+.input-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.input-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+input:focus {
+  outline: none;
+  border: 2px solid #007bff; /* add a clear border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* optional glow effect */
+}
+input:user-invalid {
+  border: 2px solid red;
+}
